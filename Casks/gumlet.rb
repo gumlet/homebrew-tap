@@ -3,7 +3,7 @@ cask "gumlet" do
   name "gumlet"
   desc "Gumlet CLI – manage video and image assets from the command line"
   homepage "https://www.gumlet.com"
-  version "1.0.7"
+  version "1.0.8"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "gumlet" do
   on_macos do
     on_intel do
       url "https://github.com/gumlet/cli/releases/download/v#{version}/gumlet_darwin_x86_64.tar.gz"
-      sha256 "e4336041f57a10edf2e30c37eda02bba3c700b59e9db3473806806b5333e2466"
+      sha256 "c4d9673caf289c04a929a903f5a67d6ae27bf8ceeb33618d197d1cbabe61e609"
     end
     on_arm do
       url "https://github.com/gumlet/cli/releases/download/v#{version}/gumlet_darwin_arm64.tar.gz"
-      sha256 "ff1b620ed1ddd989ca463e18f0145fe2eafc312365d50127a35e318665f631ad"
+      sha256 "9c1ffa3e85942ab14823621ad770c654eca9fef3a723d0a752b689279111d869"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/gumlet/cli/releases/download/v#{version}/gumlet_linux_x86_64.tar.gz"
-      sha256 "dd9a88bffa5ac380e4a8fed25ef7710f373fd47523f3ff51160246b5c3ad1bb9"
+      sha256 "019c1bcfe5f9d5f9f141900415e5a879adf69e173b2e53e6d5b0a40d686136c7"
     end
     on_arm do
       url "https://github.com/gumlet/cli/releases/download/v#{version}/gumlet_linux_arm64.tar.gz"
-      sha256 "b2af7ec72cd0820602c6b1335b0aedc29832c0df0e3c3c71d45ad90622f53da1"
+      sha256 "cb05b49a839e1c4e9efc64f090ba57dfa92008c9c40006fd0f9149dd060f8fa8"
     end
   end
 
